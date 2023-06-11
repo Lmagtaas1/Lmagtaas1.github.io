@@ -35,6 +35,7 @@ header li a:hover {
 header li img {
         width: 60px;
         float: left;
+        margin-left: 100px;
         margin-top: -20px;
 
 }
@@ -85,17 +86,55 @@ header li img {
 }
 
 .about1{
+    text-align: left;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    flex-flow: column;
+}
+.about1 h1{
+    align-items: flex-start;
+}
+
+.about2{
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
-    text-align: left;
-    margin-left: 150px;
+    justify-content:space-around;
+    margin: 0;
+    padding: 0;
 }
 
 .logo1 {
-    width: 10%;
+    width: 20%;
     display: flex;
     flex-flow: column;
+    margin: 0;
+    padding: 0;
+}
+
+.logo1 img{
+    width: 100%;
+    padding-bottom: 10px;
+    filter: grayscale(10%);
+    -webkit-filter: grayscale(100%);
+    transition: 0.5s;
+    opacity: 0.4s;
+}
+
+.logo1 img:hover {
+    filter: unset;
+    -webkit-filter: unset;
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.2s;
+    transition-timing-function: ease-in;
+}
+
+.aboutexplain{
+    font-size: 1.5rem;
+    text-align: left;
+    width: 50%;
+    line-height: 150%;
     margin: 0;
     padding: 0;
 }
