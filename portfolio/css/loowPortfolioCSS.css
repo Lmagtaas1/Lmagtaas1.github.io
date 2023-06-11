@@ -132,7 +132,7 @@ header li img {
 
 .aboutexplain{
     font-size: 1.5rem;
-    text-align: left;
+    text-align:justify;
     width: 50%;
     line-height: 150%;
     margin: 0;
