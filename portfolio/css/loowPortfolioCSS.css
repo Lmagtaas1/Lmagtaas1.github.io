@@ -141,7 +141,7 @@ header li img {
 
 
 .skills1{
-    text-align:center;
+    text-align:right;
     padding-right: 10%;
     padding-left: 10%;
     display: flex;
@@ -183,3 +183,29 @@ header li img {
     transition: 0.2s;
     transition-timing-function: ease-in;
 }
+
+.project1{
+    text-align:center;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    flex-flow: column;
+}
+.project h1{
+    align-items: flex-start;
+}
+
+.thesisExplain {
+    font-size: 1.5rem;
+    text-align:justify;
+    width: 100%;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+}
+
+.thesisExplain p {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
