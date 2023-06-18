@@ -130,11 +130,56 @@ header li img {
     transition-timing-function: ease-in;
 }
 
-.aboutexplain{
+.explain{
     font-size: 1.5rem;
     text-align:justify;
     width: 50%;
     line-height: 150%;
     margin: 0;
     padding: 0;
+}
+
+
+.skills1{
+    text-align:center;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    flex-flow: column;
+}
+.skills1 h1{
+    align-items: flex-start;
+}
+.skills2{
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content:space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.logo2 {
+    width: 20%;
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    padding: 0;
+}
+
+.logo2 img{
+    width: 100%;
+    padding-bottom: 10px;
+    filter: grayscale(10%);
+    -webkit-filter: grayscale(100%);
+    transition: 0.5s;
+    opacity: 0.4s;
+}
+
+.logo2 img:hover {
+    filter: unset;
+    -webkit-filter: unset;
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.2s;
+    transition-timing-function: ease-in;
 }
