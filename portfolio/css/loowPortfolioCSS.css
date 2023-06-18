@@ -198,10 +198,8 @@ header li img {
 .thesisExplain {
     font-size: 1.5rem;
     text-align:justify;
-    width: 100%;
-    line-height: 150%;
-    margin: 0;
-    padding: 0;
+    letter-spacing: 2px;
+    line-height: 1.5;
 }
 
 .thesisExplain p {
