@@ -202,6 +202,9 @@ header li img {
     line-height: 1.5;
 }
 
+.thesisExplain h4{
+    text-align: center;
+}
 .thesisExplain p {
     padding-right: 10%;
     padding-left: 10%;
@@ -210,4 +213,14 @@ header li img {
 .teamMembers {
     font-size: 1.5rem;
     text-align: center;
+}
+
+footer{
+    background-color:azure;
+    text-align: center;
+    padding: 20px;
+    
+}
+.contactInfo{
+    padding-right: 10px;
 }
