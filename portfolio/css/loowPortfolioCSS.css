@@ -14,11 +14,14 @@ header{
     font-size: 1.5rem;
     font-weight:500;
     text-align: right;
+    position: sticky;
+    top:0;
 }
 
 header li{
     display: inline;
     padding-left: 40px;
+    
 
 }
 header li a{
@@ -26,6 +29,7 @@ header li a{
     text-decoration: none;
     padding: 10px;
     transition: 0.3s ease;
+    
 
 }
 header li a:hover {
