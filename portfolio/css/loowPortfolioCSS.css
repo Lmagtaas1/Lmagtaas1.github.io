@@ -210,17 +210,37 @@ header li img {
     padding-left: 10%;
 }
 
-.teamMembers {
-    font-size: 1.5rem;
-    text-align: center;
+.sa{
+   display: flex;
+   font-size: 1.4rem;
+   line-height: 1.6;
+   flex-flow: column;
+}
+.sa h1{
+    align-items: flex-start;
+}
+
+.sa1{
+    display: flex;
+    flex-flow: column;
+}
+.sa1 img {
+    width: 70%;
+}
+
+.sa2 {
+    flex-flow: column;
+    
 }
 
 footer{
     background-color:azure;
+    align-items: center;
     text-align: center;
     padding: 20px;
     
 }
-.contactInfo{
-    padding-right: 10px;
+.contactInfo a{
+    align-items: center;
+    margin-right: 20px;
 }
